@@ -207,6 +207,138 @@
       "reviews": 278,
       "unit": "pack",
       "inStock": true
-    }
+    },
+    {
+        "id": 17,
+        "name": "Curd",
+        "price": 50,
+        "originalPrice": null,
+        "discount": 10,
+        "category": "Dairy",
+        "image": "🍶",
+        "rating": 4.6,
+        "reviews": 234,
+        "unit": "500g",
+        "inStock": true
+    },
+    {
+        "id": 18,
+        "name": "Butter",
+        "price": 120,
+        "originalPrice": 150,
+        "discount": 20,
+        "category": "Dairy",
+        "image": "🧈",
+        "rating": 4.9,
+        "reviews": 310,
+        "unit": "200g",
+        "inStock": true
+    },
+    {
+        "id": 19,
+        "name": "Blueberry Muffin",
+        "price": 70,
+        "originalPrice": 90,
+        "discount": 22,
+        "category": "Bakery",
+        "image": "🫐",
+        "rating": 4.7,
+        "reviews": 134,
+        "unit": "piece",
+        "inStock": true
+    },
+    {
+        "id": 20,
+        "name": "Cinnamon Roll",
+        "price": 55,
+        "originalPrice": null,
+        "discount": null,
+        "category": "Bakery",
+        "image": "🍥",
+        "rating": 4.6,
+        "reviews": 160,
+        "unit": "piece",
+        "inStock": true
+    },
+    {
+    "id": 21,
+    "name": "Banana Bread",
+    "price": 90,
+    "originalPrice": 110,
+    "discount": 18,
+    "category": "Bakery",
+    "image": "🍌",
+    "rating": 4.8,
+    "reviews": 120,
+    "unit": "loaf",
+    "inStock": true
+    },
+    {
+    "id": 22,
+    "name": "Chocolate Eclair",
+    "price": 85,
+    "originalPrice": 100,
+    "discount": 15,
+    "category": "Bakery",
+    "image": "🍫",
+    "rating": 4.7,
+    "reviews": 98,
+    "unit": "piece",
+    "inStock": true
+    },
+    {
+    "id": 23,
+    "name": "Apple Pie Slice",
+    "price": 60,
+    "originalPrice": 75,
+    "discount": 20,
+    "category": "Bakery",
+    "image": "🥧",
+    "rating": 4.5,
+    "reviews": 142,
+    "unit": "slice",
+    "inStock": true
+    },
+    {
+  "id": 24,
+  "name": "Salted Peanuts",
+  "price": 40,
+  "originalPrice": null,
+  "discount": null,
+  "category": "Snacks",
+  "image": "🥜",
+  "rating": 4.3,
+  "reviews": 210,
+  "unit": "pack",
+  "inStock": true
+},
+{
+  "id": 25,
+  "name": "Corn Flakes Snack",
+  "price": 35,
+  "originalPrice": 50,
+  "discount": 30,
+  "category": "Snacks",
+  "image": "🌽",
+  "rating": 4.1,
+  "reviews": 150,
+  "unit": "pack",
+  "inStock": true
+},
+{
+  "id": 26,
+  "name": "Cheese Balls",
+  "price": 60,
+  "originalPrice": 75,
+  "discount": 20,
+  "category": "Snacks",
+  "image": "🧀",
+  "rating": 4.5,
+  "reviews": 180,
+  "unit": "pack",
+  "inStock": true
+}
+
+
   ]
 }
