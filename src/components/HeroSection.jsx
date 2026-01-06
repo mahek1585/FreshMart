@@ -45,7 +45,7 @@ const HeroSection = ({ searchQuery, setSearchQuery }) => {
         <div className="absolute bottom-0 right-1/4 w-80 h-80 bg-green-400 opacity-5 rounded-full blur-3xl" />
       </div>
 
-      <div className="relative max-w-7xl mx-auto px-4 py-12 lg:py-20">
+      <div className="relative w-full mx-auto px-4 py-12 lg:py-20 ">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
 
           {/* ---------- LEFT ---------- */}
@@ -116,7 +116,7 @@ const HeroSection = ({ searchQuery, setSearchQuery }) => {
             <div className="flex flex-wrap gap-6 justify-center lg:justify-start pt-4">
               {stats.map(({ icon: Icon, value, label }) => (
                 <div key={label} className="flex items-center gap-2">
-                  <div className="w-12 h-12 bg-white/20 text-green-500 rounded-xl flex items-center justify-center">
+                  <div className="w-12 h-12 bg-white/20 text-white rounded-xl flex items-center justify-center">
                     <Icon className="w-6 h-6" />
                   </div>
                   <div>
@@ -159,13 +159,13 @@ const HeroSection = ({ searchQuery, setSearchQuery }) => {
         </div>
 
         {/* ---------- MOBILE ---------- */}
-        <div className="lg:hidden mt-12 grid grid-cols-2 gap-4">
+        <div className="lg:hidden mt-12 grid grid-cols-2 gap-3">
           {mobileCards.map((card) => (
             <div
               key={card.title}
-              className="bg-white/10 rounded-2xl p-6 text-center hover:scale-105 transition"
+              className="bg-white/10 rounded-2xl p-4 text-center hover:scale-105 transition"
             >
-              <div className="text-6xl mb-3">{card.emoji}</div>
+              <div className="text-4xl mb-3">{card.emoji}</div>
               <p className="font-bold">{card.title}</p>
               <p className="text-sm text-green-100">{card.price}</p>
             </div>
